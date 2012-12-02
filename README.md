@@ -1,7 +1,7 @@
 Unity3DTopLevelComplete
 =======================
 
-Sublime Text 2 + Unity で開発するときに役に立ちそうな補完プラグインです
+Sublime Text 2 + Unity で開発するときに役に立ちそうな補完プラグインです。
 
 
 ###現在 (2012/12/2)
@@ -35,6 +35,9 @@ CompleteCharpを使用するとスクリプトコードの補完をしてくれ�
 補完されるよー (^○^)ノ
 
 ![](https://dl.dropbox.com/u/18426324/SublimePlugins/Unity3DTopLevelComplete/4.png)
+
+
+**今のところC#のみ対応です。**
 
 
 これはひどい…と言えるようなコードなので何かあったら連絡下さい
