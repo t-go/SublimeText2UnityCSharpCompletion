@@ -15,13 +15,21 @@ CompleteCharpを使用するとスクリプトコードの補完をしてくれ�
 
 1. `Unity3DTopLevelComplete.py`のコードをコピーする
 2.  Sublime Text 2を開き、`Tools -> New Plugin…`を選択する
+
  ![](https://dl.dropbox.com/u/18426324/SublimePlugins/Unity3DTopLevelComplete/0.png)
+
 3.  これを 
+
  ![](https://dl.dropbox.com/u/18426324/SublimePlugins/Unity3DTopLevelComplete/1.png)
+
 4.  こうする
+
  ![](https://dl.dropbox.com/u/18426324/SublimePlugins/Unity3DTopLevelComplete/2.png)
+
 5.  `Unity3DTopLevelComplete.py`で保存する
+
  ![](https://dl.dropbox.com/u/18426324/SublimePlugins/Unity3DTopLevelComplete/3.png)
+
 6.  おわり
 
 補完されるよー (^○^)ノ
