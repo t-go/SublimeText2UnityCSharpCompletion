@@ -6,10 +6,15 @@ currentView = None
 class Unity3DTopLevelComplete(sublime_plugin.EventListener):
 	
 	def on_query_completions(self, view, prefix, locations):
+		
 		if not view.file_name().endswith('.cs'):
 			return []
+		
+		if '.' in view.substr(view.line(view.sel()[0])):
+			return []
+		
+		global currentView
 
-		global currentView 
 		currentView = view
 		result = []
 
