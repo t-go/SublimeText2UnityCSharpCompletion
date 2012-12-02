@@ -8,9 +8,9 @@ Sublime Text 2 + Unity で開発するときに役に立ちそうな補完プラ
 
 
 ###現在 (2012/12/2)
-CompleteCharpを使用するとスクリプトコードの補完をしてくれます。
+CompleteSharpを使用するとスクリプトコードの補完をしてくれます。
 
-[CompleteCharpでUnityスクリプトの保管方法](http://qiita.com/items/a33388572990932bba87)
+[CompleteSharpでUnityスクリプトの保管方法](http://qiita.com/items/a33388572990932bba87)
 
 しかし、トップレベル (TransformとかApplicationとか)のは補完してくれません。
 なので、トップレベルのみ補完できるプラグインを作成しました。
