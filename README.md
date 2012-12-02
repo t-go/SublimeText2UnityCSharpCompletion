@@ -1,43 +1,30 @@
-Unity3DTopLevelComplete
-=======================
+#SublimeText2UnityCSharpCompletion
+
+![](https://dl.dropbox.com/u/18426324/SublimePlugins/SublimeText2UnityCSharpCompletion/0.png)
+
+##Overview
 
 Sublime Text 2 + Unity で開発するときに役に立ちそうな補完プラグインです。
 
 
 ###現在 (2012/12/2)
 CompleteCharpを使用するとスクリプトコードの補完をしてくれます。
+
+[CompleteCharpでUnityスクリプトの保管方法](http://qiita.com/items/a33388572990932bba87)
+
 しかし、トップレベル (TransformとかApplicationとか)のは補完してくれません。
+なので、トップレベルのみ補完できるプラグインを作成しました。
 
-というか、出来るのか出来ないのかがわかりません。
+## Introduction
 
-
-#なので作っちゃった(・ω<)
-
-1. `Unity3DTopLevelComplete.py`のコードをコピーする
-2.  Sublime Text 2を開き、`Tools -> New Plugin…`を選択する
-
- ![](https://dl.dropbox.com/u/18426324/SublimePlugins/Unity3DTopLevelComplete/0.png)
-
-3.  これを 
-
- ![](https://dl.dropbox.com/u/18426324/SublimePlugins/Unity3DTopLevelComplete/1.png)
-
-4.  こうする
-
- ![](https://dl.dropbox.com/u/18426324/SublimePlugins/Unity3DTopLevelComplete/2.png)
-
-5.  `Unity3DTopLevelComplete.py`で保存する
-
- ![](https://dl.dropbox.com/u/18426324/SublimePlugins/Unity3DTopLevelComplete/3.png)
-
-6.  おわり
+1. `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/`の場所に`SublimeText2UnityCSharpCompletion.py`を置く
 
 補完されるよー (^○^)ノ
 
-![](https://dl.dropbox.com/u/18426324/SublimePlugins/Unity3DTopLevelComplete/4.png)
 
 
-**今のところC#のみ対応です。**
+
+**C#のみ対応です。**
 
 
 これはひどい…と言えるようなコードなので何かあったら連絡下さい
